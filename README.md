@@ -10,7 +10,7 @@ This Android Project help you to make your image blur in fastest way
 
 USAGE
 -----
-To make your imageview blurry using single line of code which is using android framework rendersript which is most efficient for doing these tasks and to use y you can grab this library using your Gradle file : 
+To make your imageview blurry using single line of code which is using android framework rendersript which is most efficient for doing these tasks and to use you can grab this library using your Gradle file : 
  
  Gradle
 ------
