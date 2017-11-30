@@ -10,7 +10,7 @@ This Android Project help you to make your image blur in fastest way
 
 USAGE
 -----
-To make your imageview blurry using single line of code which is using android framework rendersript which is most efficient for doing these tasks and to use you can grab this library using your Gradle file : 
+To make your imageview blurry in a single line of code, library  using android framework (rendersript) which is most efficient for doing these tasks and  you can grab this library using your Gradle file : 
  
  Gradle
 ------
@@ -36,13 +36,13 @@ method (load) :- load(int resource),  load(Bitmap bitmap)
 method(intesity):- intensity( int value) { Increase Blur and limit of value is in between 0 to 25 }
 
 **Synchronous way to Load** :-
-To make blur in synchronous you need to put false in Async method
+To make blur in synchronous you need to put false in Async method.
 
 **ASynchronous way to Load**:-
-   To make blur in synchronous you need to put true in Async method
+   To make blur in asynchronous (Background) you need to put true in Async method.
    
 **Direct get Blur Bitmap** :-
-   To get direct blur bitmap call following code 
+   To get direct blur bitmap call the following code .
    ```java
    Bitmap bitmap = BlurImage.with(getApplicationContext()).load(R.drawable.mountain).intensity(20).Async(true).getImageBlur();
    ```
