@@ -5,8 +5,8 @@
 
 This Android Project help you to make your image blur in fastest way 
 
-[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
-[![API](https://img.shields.io/badge/API-17%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=17)
+[![Platform](https://img.shields.io/badge/platform-android-blue.svg)](http://developer.android.com/index.html)
+[![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 USAGE
 -----
@@ -14,10 +14,23 @@ To make your imageview blurry in a single line of code, library  using android f
  
  Gradle
 ------
+
+#### Step #1. Add the dependency
+
 ```
 dependencies {
     ...
-    compile 'com.jackandphantom.android:blurimage:1.0.1'
+    compile 'com.jackandphantom.android:blurimage:1.2.0'
+}
+```
+
+#### Step #2. Add the below lines on app module build.gradle file.
+
+```groovy
+defaultConfig {
+    ...
+    renderscriptTargetApi 19
+    renderscriptSupportModeEnabled true
 }
 ```
 
