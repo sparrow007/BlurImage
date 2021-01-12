@@ -20,7 +20,7 @@ To make your imageview blurry in a single line of code, library  using android f
 ```
 dependencies {
     ...
-    compile 'com.jackandphantom.android:blurimage:1.2.0'
+    Implementation 'com.jackandphantom.android:blurimage:1.2.0'
 }
 ```
 
